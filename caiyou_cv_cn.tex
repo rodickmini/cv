@@ -15,12 +15,12 @@
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[UTF8]{ctex}                            % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
-\usepackage[UTF8]{ctex}
+\usepackage[scale=0.8]{geometry}
+
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -38,7 +38,7 @@
 \social[github]{rodickmini}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{avatar}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+\quote{Make everyday count}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -64,16 +64,17 @@
 \section{硕士论文}
 \cvitem{题目}{\emph{针对动态网页的信息采集系统的优化}}
 \cvitem{导师}{廖建新}
-\cvitem{简介}{针对富Ajax Web应用，采用javascript脚本解析等技术进行页面信息的爬取}
+\cvitem{简介}{针对富Ajax的Web应用，采用JavaScript脚本解析等技术进行动态页面的网页爬取}
 
 \section{基本技能}
-\cvitem{前端}{HTML5, CSS3, javaScript, jQuery, json, Bootstrap, Backbone, Angularjs}
+\cvitem{前端}{HTML5, CSS3, JavaScript, jQuery, JSON, Bootstrap, Backbone.js, Angular.js}
 \cvitem{后端}{掌握php的基础知识，熟练使用fleaPHP MVC框架}
+\cvitem{算法}{掌握数组、链表、队列、栈、散列、集合等数据结构；熟悉二叉树、图、排序、动态规划、贪心等常用算法的实现}
 \cvitem{数据库}{熟悉mysql的基本操作，熟悉phpMyAdmin的使用}
-\cvitem{操作系统}{熟悉Linux的基本操作命令}
-\cvitem{服务器}{熟悉Apache, Nginx的基本配置}
-\cvitem{开发工具}{phpStorm, secureCRT, FileZilla, Sublime text, Git, SVN}
-\cvitem{其它}{Photoshop, MS office, Adobe Audition}
+\cvitem{操作系统}{熟悉Linux的基本命令，习惯在Linux环境下开发}
+\cvitem{服务器}{熟悉Nginx、php-fpm的原理和基本配置}
+\cvitem{开发工具}{phpStorm, secureCRT, FileZilla, VI, Sublime text, Git, SVN}
+\cvitem{其它}{Photoshop, MS office, LATEX, Adobe Audition}
 
 \section{工作经历}
 %\subsection{Vocational}
@@ -81,30 +82,49 @@
 {使用HTML, CSS, javaScript, PHP等技术进行Web开发
 \newline{}%Detailed achievements:%
 \begin{itemize}%
-\item 商用WiFi 悦BOX项目：
+\item 商用WiFi“悦BOX”项目：
   \begin{itemize}%
-  \item 项目简介：悦BOX项目是一个软硬件结合的项目，我们的产品是面向行业用户的智能盒子（路由器）。产品的硬件部分是我们自主研发的智能路由器，产品的云端软件部分包括账号系统、设备绑定、建站模板、用户建站、站点推送等功能;
+  \item 项目简介：悦BOX项目是一个软硬件结合的项目，我们的产品是面向行业用户的智能盒子（路由器）。产品的硬件是我们自主研发的智能路由器，产品的云端软件包括账号系统、设备管理、建站模板、用户建站、站点推送、消息上报等功能;
   \item 我的工作：
       \begin{itemize}%
-        \item 负责平台端账号系统、站点模板、用户建站等功能的开发。主要使用Bootstrap、fleaPHP、mySql等技术实现上述功能;
-        \item 负责盒端应用引擎的开发：由于我们的应用最终是推送到盒子上，用户会使用不同类型的终端进行访问，因此盒端应用引擎需要进行Responsive design 和Mobile first design;
+        \item 负责云端账号系统、站点模板、用户建站等功能的开发，主要使用Bootstrap、HTML+CSS、PHP、mySql等技术实现;
+        \item 负责盒端应用引擎的开发。产品层面：针对盒子不同的使用场景（例如酒店、机场、餐厅等），进行定制化应用开发（例如新闻、点餐、签到、抽奖等）；技术层面：针对用户访问的不同设备，进行Responsive design 和Mobile first design;
+        \item 负责云平台的升级和割接：使用Gitlab进行版本控制，多平台灰度发布；使用secureCRT进行ssh连接远程主机执行相关命令；使用Linux下Schema Sync 工具自动生成数据库patch 和revert SQL;
       \end{itemize}
   \end{itemize}
-\item Achievement 2, with sub-achievements:
+\item HTML5游戏“掼蛋”：
   \begin{itemize}%
-  \item Sub-achievement (a);
-  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-    \begin{itemize}
-    \item Sub-sub-achievement i;
-    \item Sub-sub-achievement ii;
-    \item Sub-sub-achievement iii;
-    \end{itemize}
-  \item Sub-achievement (c);
+  \item 项目简介：使用HTML5、Backbone.js结合Nginx消息推送模块pushstream实现的多人在线联机纸牌游戏;
+  \item 我的工作：
+      \begin{itemize}%
+        \item 使用html+css的方式进行移动端优先的响应式设计;
+        \item 使用Backbone.js进行前端javaScript业务流程的设计;
+        \item 使用Underscore.js进行游戏算法的设计;
+        \item 使用pushstrem.js结合Nginx配置实现Long polling、Websocket等多种html消息推送，模拟多人在线游戏中的实时通信;
+      \end{itemize}
+  \end{itemize}
+\item 自助点餐系统“憨豆点餐”：
+  \begin{itemize}%
+  \item 项目简介：使用Bootstrap 3、jQuery、Angular.js实现的用户自助点餐系统。实现了服务器端的菜品数据录入和移动端的用户点餐功能;
+  \item 我的工作：
+      \begin{itemize}%
+        \item 对Bootstrap 3进行页面样式和响应式断点的定制，得到适合移动端设备访问的css文件;
+        \item 编写Angular.js页面模板;
+        \item 用Angular.js实现了一部分前端业务逻辑;
+        \item 配合完成了javaScript性能调优;
+      \end{itemize}
+  \end{itemize}
+\item Hybrid APP “找外卖”：
+  \begin{itemize}%
+  \item 项目简介：使用HTML5、Zepto.js、Backbone.js结合PhoneGap开发的混合型APP。能够根据GPS定位，获取附近餐馆信息、菜单列表，完成点餐、呼叫等功能;
+  \item 我的工作：
+      \begin{itemize}%
+        \item 使用HTML+CSS进行静态页面的实现;
+        \item 设计用户交互流程，并用Backbone.js进行实现;
+        \item 使用Ajax调用后端提供的RESTful接口，进行数据的CRUD操作;
+      \end{itemize}
   \end{itemize}
 \end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
 
 \section{语言能力}
 \cvitemwithcomment{英语}{CET-6}{有良好的听说读写能力，能够用英语进行日常交流，无障碍阅读技术文档，熟练掌握基本英文写作技巧}
@@ -112,10 +132,7 @@
 
 
 \section{兴趣爱好}
-\cvitem{摇滚乐}{弹吉他11年，担任一支重金属乐队的主唱兼吉他手}
+\cvitem{摇滚乐}{弹吉他11年，担任一支重金属乐队的主唱、吉他手及全英文歌词创作，积累作品10余首}
 
 
 \end{document}
-
-
-%% end of file `template.tex'.
