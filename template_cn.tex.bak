@@ -1,0 +1,121 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\usepackage[UTF8]{ctex}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{蔡}{游}
+\title{前端工程师}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+86 18911235259}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{rodickcai@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{rodickmini}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{avatar}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{教育背景}
+\cventry{2011--2014}{计算机}{硕士}{北京邮电大学}{网络技术研究院}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2007--2011}{计算机科学与技术}{学士}{北京邮电大学}{计算机学院}{}{}
+
+\section{硕士论文}
+\cvitem{题目}{\emph{针对动态网页的信息采集系统的优化}}
+\cvitem{导师}{廖建新}
+\cvitem{简介}{针对富Ajax Web应用，采用javascript脚本解析等技术进行页面信息的爬取}
+
+\section{基本技能}
+\cvitem{前端}{HTML5, CSS3, javaScript, jQuery, json, Bootstrap, Backbone, Angularjs}
+\cvitem{后端}{掌握php的基础知识，熟练使用fleaPHP MVC框架}
+\cvitem{数据库}{熟悉mysql的基本操作，熟悉phpMyAdmin的使用}
+\cvitem{操作系统}{熟悉Linux的基本操作命令}
+\cvitem{服务器}{熟悉Apache, Nginx的基本配置}
+\cvitem{开发工具}{phpStorm, secureCRT, FileZilla, Sublime text, Git, SVN}
+\cvitem{其它}{Photoshop, MS office, Adobe Audition}
+
+\section{工作经历}
+%\subsection{Vocational}
+\cventry{2011--至今}{前端工程师}{东信北邮信息技术有限公司}{北京}{}
+{使用HTML, CSS, javaScript, PHP等技术进行Web开发
+\newline{}%Detailed achievements:%
+\begin{itemize}%
+\item 商用WiFi 悦BOX项目：
+  \begin{itemize}%
+  \item 项目简介：悦BOX项目是一个软硬件结合的项目，我们的产品是面向行业用户的智能盒子（路由器）。产品的硬件部分是我们自主研发的智能路由器，产品的云端软件部分包括账号系统、设备绑定、建站模板、用户建站、站点推送等功能;
+  \item 我的工作：
+      \begin{itemize}%
+        \item 负责平台端账号系统、站点模板、用户建站等功能的开发。主要使用Bootstrap、fleaPHP、mySql等技术实现上述功能;
+        \item 负责盒端应用引擎的开发：由于我们的应用最终是推送到盒子上，用户会使用不同类型的终端进行访问，因此盒端应用引擎需要进行Responsive design 和Mobile first design;
+      \end{itemize}
+  \end{itemize}
+\item Achievement 2, with sub-achievements:
+  \begin{itemize}%
+  \item Sub-achievement (a);
+  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+    \begin{itemize}
+    \item Sub-sub-achievement i;
+    \item Sub-sub-achievement ii;
+    \item Sub-sub-achievement iii;
+    \end{itemize}
+  \item Sub-achievement (c);
+  \end{itemize}
+\end{itemize}}
+\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{语言能力}
+\cvitemwithcomment{英语}{CET-6}{有良好的听说读写能力，能够用英语进行日常交流，无障碍阅读技术文档，熟练掌握基本英文写作技巧}
+
+
+
+\section{兴趣爱好}
+\cvitem{摇滚乐}{弹吉他11年，担任一支重金属乐队的主唱兼吉他手}
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
