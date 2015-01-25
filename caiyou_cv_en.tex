@@ -15,18 +15,17 @@
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
-\usepackage[UTF8]{ctex}                            % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
-
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{蔡}{游}
-\title{前端工程师}                               % optional, remove / comment the line if not wanted
+\name{Cai}{You}
+\title{Front End Engineer}                               % optional, remove / comment the line if not wanted
 %\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+86 18911235259}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
@@ -57,45 +56,46 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{教育背景}
-\cventry{2011--2014}{计算机技术}{硕士}{网络技术研究院}{北京邮电大学}{}{}  % arguments 3 to 6 can be left empty
-\cventry{2007--2011}{计算机科学与技术}{学士}{计算机学院}{北京邮电大学}{}{}
+\section{Education}
+\cventry{2011--2014}{Computer Technology}{Master}{Institute of Network Technology}{Beijing University of Posts and Telecommunications}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2007--2011}{Computer Science and Technology}{Bachelor}{School of Computer}{Beijing University of Posts and Telecommunications}{}{}
 
-\section{硕士论文}
-\cvitem{题目}{\emph{针对动态网页的信息采集系统的优化}}
-\cvitem{导师}{廖建新}
-\cvitem{简介}{针对富Ajax的Web应用，采用JavaScript脚本解析等技术进行动态页面的网页爬取}
+\section{Master thesis}
+\cvitem{Title}{\emph{OPTIMIZATION OF INFORMATION COLLECTION SYSTEM FOR DYNAMIC WEB PAGES}}
+\cvitem{Supervisors}{Liao Jianxin}
+\cvitem{Description}{Designed a Web crawler for dynamic web page which is rich of Ajax, and the main method is using JavaScript analysis}
 
-\section{基本技能}
-\cvitem{前端}{HTML5, CSS3, JavaScript, jQuery, JSON, Bootstrap, Backbone.js, Angular.js}
-\cvitem{后端}{掌握php的基础知识，熟练使用fleaPHP MVC框架}
-\cvitem{算法}{掌握数组、链表、队列、栈、散列、集合等数据结构；熟悉二叉树、图、排序、动态规划、贪心等常用算法的实现}
-\cvitem{数据库}{熟悉SQL，熟悉mySql的基本操作，熟悉phpMyAdmin的使用}
-\cvitem{操作系统}{熟悉Linux的基本命令，习惯在Linux环境下开发}
-\cvitem{服务器}{熟悉Nginx、php-fpm的原理和基本配置}
-\cvitem{开发工具}{phpStorm, secureCRT, FileZilla, VI, Sublime text, Git, SVN}
-\cvitem{其它}{Photoshop, MS office, LATEX, Adobe Audition}
+\section{Skills}
+\cvitem{Front End}{HTML5, CSS3, JavaScript, jQuery, JSON, Bootstrap, Backbone.js, Angular.js}
+\cvitem{Back End}{Know the basic of php well, skilled at fleaPHP MVC Framework}
+\cvitem{Algorithm}{Familiar with data structures such as Array, Linked list, Queue, Stack, Hash and Set; 
+Familiar with Algorithms such as Binary Tree, Diagram, Sort, Dynamic Programming, Greedy Algorithm etc.}
+\cvitem{Database}{Basic manipulation of SQL, mySql and phpMyAdmin}
+\cvitem{OS}{Basic commands of Linux, used to develop in Linux}
+\cvitem{Server}{Basic configurations of Nginx and php-fpm}
+\cvitem{Develop}{phpStorm, secureCRT, FileZilla, VI, Sublime text, Git, SVN}
+\cvitem{Others}{Photoshop, MS office, LATEX, Adobe Audition}
 
-\section{工作经历}
+\section{Working Experience}
 %\subsection{Vocational}
-\cventry{2011--至今}{前端工程师}{东信北邮信息技术有限公司}{北京}{}
-{使用HTML, CSS, javaScript, PHP等技术进行Web开发
+\cventry{2011--now}{Front End Engineer}{EBUPT Information Technology CO., LTD.} {Beijing}{}
+{Develop Web applications using HTML, CSS, javaScript and PHP.
 \newline{}%Detailed achievements:%
 \begin{itemize}%
-\item 商用WiFi“悦BOX”：
+\item Commercial WiFi "Yue-BOX":
   \begin{itemize}%
-  \item 项目简介：悦BOX项目是一个软硬件结合的项目，我们的产品是面向行业用户的智能盒子（路由器）。产品的硬件是我们自主研发的智能路由器，产品的云端软件包括账号系统、设备管理、建站模板、用户建站、站点推送、消息上报等功能;
-  \item 我的工作：
+  \item Introduction: Yue-BOX is a project combining hardware and software. Our product is a intelligent box(router) aiming at industry users. The hardware part is our independently developed router, and the software part has functions such as account system, device management, site templates, site building, site push and message upload.
+  \item My work:
       \begin{itemize}%
-        \item 负责云端账号系统、站点模板、用户建站等功能的开发，主要使用Bootstrap、HTML+CSS、PHP、mySql等技术实现;
-        \item 负责盒端应用引擎的开发。产品层面：针对盒子不同的使用场景（例如酒店、机场、餐厅等），进行定制化应用开发（例如新闻、点餐、签到、抽奖等）；技术层面：针对用户访问的不同设备，进行Responsive design 和Mobile first design;
-        \item 负责云平台的升级和割接：使用Gitlab进行版本控制，多平台灰度发布；使用secureCRT进行ssh连接远程主机执行相关命令；使用Linux下Schema Sync 工具自动生成数据库patch 和revert SQL;
+        \item In charge of the development of account system, site templates and site building etc., implementing with Bootstrap, HTML+CSS, PHP and mySql.
+        \item In charge of the development of APP engines which is running in box-end. Product aspect: customized applications development(news, menus, sign in, draw etc.) for different use(hotel, airport, restaurant); Technology aspect: do some responsive design and mobile first design for different devices.
+        \item In charge of software upgrade and cutover. Using Gitlab for version control, grey release on multi-platform; Using secureCRT for ssh connection and command execution; Using Schema Sync in Linux to generate database patch and revert SQLs;
       \end{itemize}
   \end{itemize}
-\item HTML5游戏“掼蛋”：
+\item HTML5 game "GuanDan":
   \begin{itemize}%
-  \item 项目简介：使用HTML5、Backbone.js结合Nginx消息推送模块pushstream实现的多人在线联机纸牌游戏（类似于斗地主和双升）;
-  \item 我的工作：
+  \item Introduction: 使用HTML5、Backbone.js结合Nginx消息推送模块pushstream实现的多人在线联机纸牌游戏（类似于斗地主和双升）;
+  \item My work:
       \begin{itemize}%
         \item 使用html+css的方式进行移动端优先的响应式设计;
         \item 使用Backbone.js进行前端javaScript业务流程的设计;
@@ -103,10 +103,10 @@
         \item 使用pushstrem.js结合Nginx配置实现Long polling、Websocket等多种html消息推送，模拟多人在线游戏中的实时通信;
       \end{itemize}
   \end{itemize}
-\item 自助点餐系统“憨豆点餐”：
+\item Dish ordering System "HanDou":
   \begin{itemize}%
-  \item 项目简介：使用Bootstrap 3、jQuery、Angular.js实现的用户自助点餐系统。实现了服务器端的菜品数据录入和移动端的用户点餐功能;
-  \item 我的工作：
+  \item Introduction: 使用Bootstrap 3、jQuery、Angular.js实现的用户自助点餐系统。实现了服务器端的菜品数据录入和移动端的用户点餐功能;
+  \item My work:
       \begin{itemize}%
         \item 对Bootstrap 3进行页面样式和响应式断点的定制，得到适合移动端设备访问的css文件;
         \item 编写Angular.js页面模板;
@@ -114,10 +114,10 @@
         \item 配合完成了javaScript性能调优;
       \end{itemize}
   \end{itemize}
-\item Hybrid APP “找外卖”：
+\item Hybrid APP "ZhaoWaiMai"：
   \begin{itemize}%
-  \item 项目简介：使用HTML5、Zepto.js、Backbone.js结合PhoneGap开发的混合型APP。能够根据GPS定位，获取附近餐馆信息、菜单列表，完成点餐、呼叫等功能;
-  \item 我的工作：
+  \item Introduction: 使用HTML5、Zepto.js、Backbone.js结合PhoneGap 开发的混合型APP。能够根据GPS定位，获取附近餐馆信息、菜单列表，完成点餐、呼叫等功能;
+  \item My work:
       \begin{itemize}%
         \item 使用HTML+CSS进行静态页面的实现;
         \item 设计用户交互流程，并用Backbone.js进行实现;
@@ -126,13 +126,11 @@
   \end{itemize}
 \end{itemize}}
 
-\section{语言能力}
-\cvitemwithcomment{英语}{CET-6}{有良好的听说读写能力，能够用英语进行日常交流，无障碍阅读技术文档，熟练掌握基本英文写作技巧}
+\section{Languages}
+\cvitemwithcomment{English}{CET-6}{Have a good ability of listening, speaking, reading and writing. I am able to use English for daily communications, technology documents reading and general writing.}
 
-
-
-\section{兴趣爱好}
-\cvitem{摇滚乐}{弹吉他11年，担任一支重金属乐队的主唱、吉他手及全英文歌词创作，积累作品10余首}
+\section{Interests}
+\cvitem{Rock N' Roll}{I've been played Guitar for 11 years, and I'm now on vocal and guitar of a heavy metal band. We have around 10 pieces of work and I'm also in charge of the lyrics composition.}
 
 
 \end{document}
