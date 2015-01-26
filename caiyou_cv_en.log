@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  25 JAN 2015 10:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  26 JAN 2015 23:12
 entering extended mode
 **C:/xampp/htdocs/cv/caiyou_cv_en.tex
 (C:/xampp/htdocs/cv/caiyou_cv_en.tex
@@ -912,17 +912,14 @@ LaTeX Info: Redefining \nameref on input line 54.
 
 (C:\xampp\htdocs\cv\caiyou_cv_en.out) (C:\xampp\htdocs\cv\caiyou_cv_en.out)
 \@outlinefile=\write4
-\pagenumberwidth=\skip80
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 54.
 \makecvtitlepicturebox=\box49
 
-<avatar.jpg, id=31, 296.10625pt x 414.54875pt>
+<avatar.jpg, id=30, 296.10625pt x 414.54875pt>
 File: avatar.jpg Graphic file (type jpg)
  <use avatar.jpg>
 Package pdftex.def Info: avatar.jpg used on input line 57.
 (pdftex.def)             Requested size: 64.0pt x 89.60065pt.
-\makecvtitlepicturewidth=\skip81
+\makecvtitlepicturewidth=\skip80
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
 
 (C:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -954,6 +951,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
  []
 
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
@@ -970,51 +969,9 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 127.
-
-Overfull \hbox (373.18832pt too wide) in paragraph at lines 127--127
-[]\T1/lmss/m/n/10 (-20) Introduction: 使用HTML5、Backbone.js结合Nginx消�
-�推送模块pushstream实现的多人在线联机纸牌游戏（类似于斗�
-�主和双升）; 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-[]\T1/lmss/m/n/10 (+20) Introduction: 使用Bootstrap 3、j-Query、An-gu-
- []
-
-
-Overfull \hbox (205.85747pt too wide) in paragraph at lines 127--127
-\T1/lmss/m/n/10 (-20) lar.js实现的用户自助点餐系统。实现了服务
-器端的菜品数据录入和移动端的用户点餐功能; 
- []
-
-
-Overfull \hbox (167.08495pt too wide) in paragraph at lines 127--127
-[]\T1/lmss/m/n/10 (-20) 对Bootstrap 3进行页面样式和响应式断点的�
-�制，得到适合移动端设备访问的css文件; 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-[]\T1/lmss/m/n/10 (+20) Introduction: 使用HTML5、Zepto.js、Backbone.js结�
-�PhoneGap
- []
-
-
-Overfull \hbox (266.3372pt too wide) in paragraph at lines 127--127
-\T1/lmss/m/n/10 (-20) 开发的混合型AP-P。能够根据GPS定位，获取�
-�近餐馆信息、菜单列表，完成点餐、呼叫等功能; 
- []
-
-
-Overfull \hbox (15.61726pt too wide) in paragraph at lines 127--127
-[]\T1/lmss/m/n/10 (-20) 使用Ajax调用后端提供的RESTful接口，进行�
-�据的CRUD操作; 
- []
-
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 128.
-[1
+ [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <C:/xampp/ht
 docs/cv/avatar.jpg>]
@@ -1023,18 +980,19 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
- (C:\xampp\htdocs\cv\caiyou_cv_en.aux)
+
+(C:\xampp\htdocs\cv\caiyou_cv_en.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `caiyou_cv_en.out' has not changed.
 (rerunfilecheck)             Checksum: 789CF73E8DAEB6824F1BB7DEA6293436;590.
  ) 
 Here is how much of TeX's memory you used:
- 21928 strings out of 495354
- 381239 string characters out of 3183859
- 520670 words of memory out of 3000000
+ 21936 strings out of 495354
+ 381329 string characters out of 3183859
+ 520497 words of memory out of 3000000
  24641 multiletter control sequences out of 15000+200000
- 65862 words of font info for 73 fonts, out of 3000000 for 9000
+ 66301 words of font info for 77 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  77i,14n,85p,797b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/CTEX/MiKTeX/fonts/enc/dv
@@ -1044,9 +1002,9 @@ eX/fonts/type1/public/lm/lmss12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/lm/lmss1
 type1/public/lm/lmsso10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><
 C:/CTEX/MiKTeX/fonts/type1/public/lm/lmsso17.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
 blic/lm/lmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on caiyou_cv_en.pdf (2 pages, 277475 bytes).
+Output written on caiyou_cv_en.pdf (2 pages, 267793 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  24642 words of extra memory for PDF output out of 24883 (max. 10000000)
 

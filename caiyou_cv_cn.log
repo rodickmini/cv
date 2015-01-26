@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  25 JAN 2015 10:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  26 JAN 2015 23:16
 entering extended mode
 **C:/xampp/htdocs/cv/caiyou_cv_cn.tex
 (C:/xampp/htdocs/cv/caiyou_cv_cn.tex
@@ -1573,7 +1573,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 128.
 [1
 
- <C:/xampp/htdocs/cv/avatar.jpg>]
+ <C:/xampp/htdocs/cv/avatar.jpg>] [2]
 Overfull \hbox (21.9pt too wide) in paragraph at lines 129--129
 [][] [] 
  []
@@ -1587,7 +1587,7 @@ Overfull \hbox (21.9pt too wide) in paragraph at lines 130--130
 [][] 
  []
 
-[2]
+
 Overfull \hbox (21.9pt too wide) in paragraph at lines 134--134
 [][] [] 
  []
@@ -1607,13 +1607,13 @@ Package rerunfilecheck Info: File `caiyou_cv_cn.out' has not changed.
 (rerunfilecheck)             Checksum: AF9CD7BD96B7592B643CDC10B16A81DC;456.
  ) 
 Here is how much of TeX's memory you used:
- 25943 strings out of 495354
- 444455 string characters out of 3183859
- 578632 words of memory out of 3000000
+ 25941 strings out of 495354
+ 444435 string characters out of 3183859
+ 579061 words of memory out of 3000000
  28186 multiletter control sequences out of 15000+200000
- 127551 words of font info for 277 fonts, out of 3000000 for 9000
+ 127450 words of font info for 276 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 77i,14n,85p,797b,1687s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 77i,15n,91p,797b,1687s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
 imkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS
 /Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:
@@ -1668,7 +1668,7 @@ INDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type
 TEX/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/CTEX/MiKTeX/fonts/type1/public
 /lm/lmsso12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/CTEX/MiKTe
 X/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on caiyou_cv_cn.pdf (3 pages, 808661 bytes).
+Output written on caiyou_cv_cn.pdf (3 pages, 808648 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
