@@ -67,11 +67,11 @@
 
 \section{Skills}
 \cvitem{Front End}{HTML5, CSS3, JavaScript, jQuery, JSON, Bootstrap, Backbone.js, Angular.js}
-\cvitem{Back End}{Know the basic of php well, skilled at fleaPHP MVC Framework}
-\cvitem{Algorithm}{Familiar with data structures such as Array, Linked list, Queue, Stack, Hash and Set;
+\cvitem{Back End}{php, skilled at fleaPHP MVC Framework}
+\cvitem{Algorithm}{Familiar with data structures such as Array, Linked list, Queue, Stack, Hash and Set
 Familiar with Algorithms such as Binary Tree, Diagram, Sort, Dynamic Programming, Greedy Algorithm etc.}
 \cvitem{Database}{Basic manipulation of SQL, mySql and phpMyAdmin}
-\cvitem{OS}{Basic commands of Linux, used to develop in Linux}
+\cvitem{OS}{Basic commands of Linux, skilled at developing in Linux}
 \cvitem{Server}{Basic configurations of Nginx and php-fpm}
 \cvitem{Develop}{phpStorm, secureCRT, FileZilla, VI, Sublime text, Git, SVN}
 \cvitem{Others}{Photoshop, MS office, LATEX, Adobe Audition}
@@ -79,58 +79,58 @@ Familiar with Algorithms such as Binary Tree, Diagram, Sort, Dynamic Programming
 \section{Working Experience}
 %\subsection{Vocational}
 \cventry{2011--now}{Front End Engineer}{EBUPT Information Technology CO., LTD.} {Beijing}{}
-{Develop Web applications using HTML, CSS, javaScript and PHP.
+{Web application designing and developing with HTML, CSS, javaScript and PHP.
 \newline{}%Detailed achievements:%
 \begin{itemize}%
 \item Commercial WiFi "Yue-BOX":
   \begin{itemize}%
-  \item Introduction: Yue-BOX is a project combining hardware and software. Our product is a intelligent box(router) aiming at industry users. The hardware part is our independently developed router, and the software part has functions such as account system, device management, site templates, site building, site push and message upload.
+  \item Introduction: Yue-BOX is a project combining hardware and software. The product is a intelligent box(router) aiming at industry users. The hardware part is a independently developed router, and the software part includes functions such as Account System, Device Management, Site Templates, Site Building, Site Push and Data Upload.
   \item My work:
       \begin{itemize}%
-        \item In charge of the development of account system, site templates and site building etc., implementing with Bootstrap, HTML+CSS, PHP and mySql.
-        \item In charge of the development of APP engines which is running in box-end. Product aspect: customized applications development(news, menus, sign in, draw etc.) for different use(hotel, airport, restaurant); Technology aspect: do some responsive design and mobile first design for different devices.
-        \item In charge of software upgrade and cutover. Using Gitlab for version control, grey release on multi-platform; Using secureCRT for ssh connection and command execution; Using Schema Sync in Linux to generate database patch and revert SQLs;
+        \item In charge of the development of Account System, Site Templates and Site Building etc., implementing with Bootstrap, HTML, CSS, PHP and mySql.
+        \item In charge of the development of APP Engines running in box-end. Product aspect: customized applications development(news, dish menu, sign in, draw etc.) for different using scenes(hotel, airport, restaurant); Technology aspect: responsive and mobile first design for different devices.
+        \item In charge of software platform upgrade and cutover. Using Gitlab for version control, grey release on multi-platforms; Using secureCRT for ssh connection and command execution; Using Schema Sync in Linux to generate database patch and revert SQLs.
       \end{itemize}
   \end{itemize}
 \item HTML5 game "GuanDan":
   \begin{itemize}%
-  \item Introduction: 使用HTML5、Backbone.js结合Nginx消息推送模块pushstream实现的多人在线联机纸牌游戏（类似于斗地主和双升）;A multi-player online porker game(similar to DouDiZhu and ShuangSheng) using HTML5, Backbone.js and the pushstream module of Nginx.
+  \item Introduction: A multi-player online porker game(similar to DouDiZhu and ShuangSheng) using HTML5, Backbone.js and the pushstream module of Nginx.
   \item My work:
       \begin{itemize}%
-        \item 使用html+css的方式进行移动端优先的响应式设计;
-        \item 使用Backbone.js进行前端javaScript业务流程的设计;
-        \item 使用Underscore.js进行游戏规则的算法实现;
-        \item 使用pushstrem.js结合Nginx配置实现Long polling、Websocket等多种html消息推送，模拟多人在线游戏中的实时通信;
+        \item Mobile first and responsive design using HTML and CSS.
+        \item Work flow design with Backbone.js.
+        \item Algorithm implement of game rules with Underscore.js.
+        \item Using pushstream.js and Nginx configurations to implement the function of html message push(such as Long polling, Web Socket and so on) in order to simulate the instant communications in multi-player games.
       \end{itemize}
   \end{itemize}
-\item Dish ordering System "HanDou":
+\item Self-help dish ordering system "HanDou":
   \begin{itemize}%
-  \item Introduction: 使用Bootstrap 3、jQuery、Angular.js实现的用户自助点餐系统。实现了服务器端的菜品数据录入和移动端的用户点餐功能;
+  \item Introduction: A self-help dish ordering system using Bootstrap 3, jQuery, Angular.js and PHP. And it implements server-side dish information entering and mobile-side user dish ordering.
   \item My work:
       \begin{itemize}%
-        \item 对Bootstrap 3进行页面样式和响应式断点的定制，得到适合移动端设备访问的css文件;
-        \item 编写Angular.js页面模板;
-        \item 用Angular.js实现了一部分前端业务逻辑;
-        \item 配合完成了javaScript性能调优;
+        \item Bootstrap 3 customizing for a better style and responsive break point, and output the css file for better presentation of mobile access.
+        \item Write html templates for Angular.js.
+        \item Implement a part of the front end work flow with Angular.js.
+        \item JavaScript performance optimization.
       \end{itemize}
   \end{itemize}
-\item Hybrid APP "ZhaoWaiMai"：
+\item Hybrid APP "ZhaoWaiMai":
   \begin{itemize}%
-  \item Introduction: 使用HTML5、Zepto.js、Backbone.js结合PhoneGap 开发的混合型APP。能够根据GPS定位，获取附近餐馆信息、菜单列表，完成点餐、呼叫等功能;
+  \item Introduction: A hybrid APP using HTML5, Zepto.js, Backbone.js, PHP and PhoneGap. It's easy to get the information and menus of nearby restaurants using GPS. It can be used for dish ordering and restaurant phone calling.
   \item My work:
       \begin{itemize}%
-        \item 使用HTML+CSS进行静态页面的实现;
-        \item 设计用户交互流程，并用Backbone.js进行实现;
-        \item 使用Ajax调用后端提供的RESTful接口，进行数据的CRUD操作;
+        \item Static pages implement with HTML and CSS.
+        \item Interaction flow design and work flow implement with Backbone.js.
+        \item Fetch Data with Ajax and do CRUD operations through RESTful interface.
       \end{itemize}
   \end{itemize}
 \end{itemize}}
 
 \section{Languages}
-\cvitemwithcomment{English}{CET-6}{Have a good ability of listening, speaking, reading and writing. I am able to use English for daily communications, technology documents reading and general writing.}
+\cvitemwithcomment{English}{CET-6}{Have a good ability of listening, speaking, reading and writing. Skilled at using English for daily communications, technology documents reading and general writing.}
 
 \section{Interests}
-\cvitem{Rock N' Roll}{I've been played Guitar for 11 years, and I'm now on vocal and guitar of a heavy metal band. We have around 10 pieces of work and I'm also in charge of the lyrics composition.}
+\cvitem{Rock N' Roll}{Have been played Guitar for 11 years, and now on vocal and guitar of a heavy metal band. Have about 10 songs and also in charge of the lyrics composition.}
 
 
 \end{document}
