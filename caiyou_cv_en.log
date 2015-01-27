@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  27 JAN 2015 10:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.24)  27 JAN 2015 14:23
 entering extended mode
 **C:/xampp/htdocs/cv/caiyou_cv_en.tex
 (C:/xampp/htdocs/cv/caiyou_cv_en.tex
@@ -912,14 +912,17 @@ LaTeX Info: Redefining \nameref on input line 54.
 
 (C:\xampp\htdocs\cv\caiyou_cv_en.out) (C:\xampp\htdocs\cv\caiyou_cv_en.out)
 \@outlinefile=\write4
+\pagenumberwidth=\skip80
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 54.
 \makecvtitlepicturebox=\box49
 
-<avatar.jpg, id=30, 296.10625pt x 414.54875pt>
+<avatar.jpg, id=31, 296.10625pt x 414.54875pt>
 File: avatar.jpg Graphic file (type jpg)
  <use avatar.jpg>
 Package pdftex.def Info: avatar.jpg used on input line 57.
 (pdftex.def)             Requested size: 64.0pt x 89.60065pt.
-\makecvtitlepicturewidth=\skip80
+\makecvtitlepicturewidth=\skip81
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
 
 (C:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -951,8 +954,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
  []
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
@@ -977,8 +978,9 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
 docs/cv/avatar.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 130.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
  [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
 
 (C:\xampp\htdocs\cv\caiyou_cv_en.aux)
@@ -988,11 +990,11 @@ Package rerunfilecheck Info: File `caiyou_cv_en.out' has not changed.
 (rerunfilecheck)             Checksum: 789CF73E8DAEB6824F1BB7DEA6293436;590.
  ) 
 Here is how much of TeX's memory you used:
- 21938 strings out of 495354
- 381353 string characters out of 3183859
- 520502 words of memory out of 3000000
+ 21935 strings out of 495354
+ 381307 string characters out of 3183859
+ 521712 words of memory out of 3000000
  24641 multiletter control sequences out of 15000+200000
- 66402 words of font info for 78 fonts, out of 3000000 for 9000
+ 66130 words of font info for 76 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  77i,14n,85p,797b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/CTEX/MiKTeX/fonts/enc/dv
@@ -1002,9 +1004,9 @@ eX/fonts/type1/public/lm/lmss12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/lm/lmss1
 type1/public/lm/lmsso10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><
 C:/CTEX/MiKTeX/fonts/type1/public/lm/lmsso17.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
 blic/lm/lmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on caiyou_cv_en.pdf (2 pages, 267804 bytes).
+Output written on caiyou_cv_en.pdf (3 pages, 271081 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  24642 words of extra memory for PDF output out of 24883 (max. 10000000)
 
